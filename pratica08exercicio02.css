@@ -1,0 +1,9 @@
+#image {
+    width: 9rem;
+    height: 9rem;
+    float: right;
+}
+h1 {
+    color: yellowgreen;
+    background-color: gray;
+}

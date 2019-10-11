@@ -1,0 +1,63 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+} 
+table {
+    margin: 1px auto;
+}
+table, th, td {
+    border: 1px solid rgba(57, 57, 199, 0.349);
+    border-collapse: collapse;
+
+}
+td, th {
+    padding: 0.5rem 3rem;
+}
+th {
+    background-color: blue navy;
+    color: #aba3e6
+}
+tr:nth-child(even) {
+    background-color: #8b9dc3;
+
+}
+tr:nth-child(odd) {
+    background-color: #dfe3ee;
+
+}
+
+tr:hover {
+    background: #ffffff !important;
+    color: #ff4500;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+
+#rodape1 {
+    background-color: rgb(255, 81, 0) !important;
+    color:white;
+    text-align: left;
+}
+.nome{
+    text-align: left;
+}
+#verde {
+    background-color: rgb(2, 97, 2);
+    color:rgb(114, 211, 114);
+    padding: 2rem;
+    width: 6rem;
+    height: 1.5rem;
+    text-align: center;
+      
+}
+#vermelho {
+    background-color: rgb(122, 16, 16);
+    color:rgb(253, 74, 74);
+    padding: 2rem;
+    width: 6rem;
+    height: 1.5rem;
+    text-align: center;
+      
+}

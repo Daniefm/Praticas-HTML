@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fundamentos de Desenvolvimento Web - Laboratório - Prática 06 - Exercício 03</title>
+</head>
+<body>
+    Cidade: <input name="cidade" type="text" size="50" maxlength="10" placeholder="informe o nome da primeira cidade."><br>
+    Cidade: <input name="cidade" type="text" size="50" maxlength="10" placeholder="informe o nome da segunda cidade."><br>
+    
+    <button onclick="listar ()">Listar Cidades</button>
+
+    <p id="resposta"></p>
+<script>
+    function listar () {
+     
+    var i, vetor = document.getElementsByName ("cidade");
+        for (i = 0; vetor.length; i++)
+        document.getElementById ("resposta").innerHTML += "Valor: " + vetor[i].value + ", " + "Tag HTML: " + vetor[i].tagName + ", " + "Tamanho visível: " + vetor[i].size + ", " + "Número máximo de caracteres do string informado: " + vetor[i].maxLength + ", " + "Placeholder: " + vetor[i].placeholder + "<br>";
+    }
+</script>
+</body>
+</html>

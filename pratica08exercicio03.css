@@ -1,0 +1,22 @@
+h1 {
+    background-color: black;
+    color: chartreuse;
+    padding: 2rem;
+    font-size: 3rem;
+}
+.imagez, .imagea  {
+    width: 12rem;
+    height: 8rem;
+}
+.imageg {
+    width: 10rem;
+    height: 10rem;
+}
+
+#galo, #america, #zero  {
+    overflow: auto;
+    width: 10rem;
+    height: 10rem;
+    float: left;
+    padding: 3rem;
+}
