@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interface Humano-Computador - Laboratório - Prática 05 - Exercício 01</title>
+    <link rel="stylesheet" href="pratica05exercicio01.css">
+    <script>
+        function somar(){
+            var n1 = document.getElementById ("primeiroNumero").value;
+            var n2 = document.getElementById ("segundoNumero").value;
+            var soma = parseInt (n1) + parseInt (n2);
+            document.getElementById ("soma").innerHTML = soma;
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <h1>Somar dois números</h1>
+        <div class="numero">
+            Informe o primeiro número: <input type="number" id="primeiroNumero">
+        </div>
+        <div class="numero">
+            Informe o segundo número: <input type="number" id="segundoNumero">
+        </div>
+        <button onclick="somar()">Somar</button>
+        <div id="soma" class="resultado"></div>
+    </main>
+</body>
+</html>
