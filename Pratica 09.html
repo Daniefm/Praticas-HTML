@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="p09e01.css">
+    <script src="p09e01.js"></script>
+</head>
+<body>
+    <main>
+        <form onmousemove="reescrever()" action="resp.html">
+            <table>
+                <tr>
+                    <td><label for="login">Login: </label></td>
+                    <td><input id="login" type="text" placeholder="Informe seu login" required size="40"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">E-mail: </label></td>
+                    <td><input id="email" type="email" placeholder="Informe seu email" required size="40"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="nasc">Data de nascimento: </label></td>
+                    <td><input id="nasc" class="cx" type="date" placeholder="Informe sua Data de nascimento" required size="40"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="senha">Senha: </label></td>
+                    <td><input id="senha" type="password" placeholder="Informe sua senha" required size="40"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="confsenha">Confirme sua senha: </label></td>
+                    <td><input id="confsenha" type="password" placeholder="Confirme sua senha" required size="40"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="sexo">Sexo: </label></td>
+                    <td><select id="sexo">
+                        <option>Selecione</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                    </select></td>
+                </tr>
+
+                <tr>
+                    <td><label for="cidade">Cidade: </label></td>
+                    <td><input id="cidade" type="text" placeholder="Informe sua cidade" required size="40"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="hp">Home-page: </label></td>
+                    <td><input id="hp" type="text" value="http://" required size="40"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="int">Interesses: </label></td>
+                    <td><label>
+                        <input type="checkbox" value="Musica" name="interesse">
+                         Musica</label>
+                        <label><input type="checkbox" value="Esportes" name="interesse">
+                         Esporte</label>
+                        <label><input type="checkbox" value="Moda" name="interesse">
+                         Moda</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><br><input type="submit" onmousemove="reescrever()" value="Enviar"></td>
+                    <td><br><input type="reset" onmousemove="reescrever()"value="Limpar"></td>
+                </tr>
+            </table>
+        </form>
+    </main>
+</body>
+</html>
